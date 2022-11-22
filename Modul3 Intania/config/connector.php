@@ -12,4 +12,15 @@ function showAll(){
 
     return $wadah;
 }
+function detail($id){
+    global $showroom;
+    $wadah=[];
+    $query="SELECT * FROM showroom_intan_table WHERE id_mobil=$id";
+    $data=mysqli_query($showroom, $query);
+    while ($datas= mysqli_fetch_assoc($data)) {
+        $wadah[] = $datas;
+    };
+
+    return $wadah;
+}
 ?>

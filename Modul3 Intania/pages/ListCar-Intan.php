@@ -59,8 +59,8 @@ $datas = showAll();
               </div>
               <div class="card-body">
               <div class="row justify-content-center gap-4">
-                <div class="col-md-5"><button type="button" class="btn btn-primary rounded-pill w-100">Detail</button></div>
-                <div class="col-md-5"><a href="../config/delete.php?id=<?=$data["id_mobil"]?>" class="btn btn-danger rounded-pill w-100">Delete</a></div>
+                <div class="col-md-5"><a href="Detail-Intan.php?id=<?=$data["id_mobil"]?>" class="btn btn-danger rounded-pill w-100">Detail</a></div>
+                <div class="col-md-5"><a href="../config/delete.php?id=<?=$data["id_mobil"]?>" class="btn btn-danger rounded-pill w-100">Delete</a> </div>
               </div>
               
               </div>
