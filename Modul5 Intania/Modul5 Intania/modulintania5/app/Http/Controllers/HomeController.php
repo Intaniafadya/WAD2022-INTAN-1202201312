@@ -21,7 +21,7 @@ class HomeController extends Controller
         ]);
     }
 
-    public function profiles()
+    public function profile()
     {
 
         $user = User::where('email', Auth::user()->email)->get();

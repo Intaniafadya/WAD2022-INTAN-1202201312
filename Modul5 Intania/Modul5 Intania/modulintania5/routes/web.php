@@ -22,7 +22,7 @@ use App\Http\Controllers\RentController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-Route::get('profiles', [HomeController::class, 'profile'])->name('profile');
+Route::get('profile', [HomeController::class, 'profile'])->name('profile');
 Route::post('profile', [HomeController::class, 'update'])->name('profile.update');
 
 Route::get('rent', [RentController::class, 'index'])->name('rent');
