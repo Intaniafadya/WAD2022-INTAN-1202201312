@@ -4,7 +4,7 @@ require "../config/connector.php";
 
 $datas = showAll();
 
-if($_SESSION["login"] != true){
+if($["login"] != true){
     header("Location: ../index.php");
 }
 

@@ -1,5 +1,5 @@
 <?php
-session_start();
+sessionstart();
 if($_SESSION["login"] != true){
   header("Location: ../index.php");
 }

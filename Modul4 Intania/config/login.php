@@ -8,7 +8,7 @@ function login($data){
     $remember = $data["remember"];
 
     if($remember){
-        setcookie("email", $email, time()+3600);
+        setcokie("email", $email, time()+3600);
         setcookie("password", $password, time()+3600);
     }
 
